@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18B05E5E1A9A47F200A97597 /* ResourcePath.mm in Sources */ = {isa = PBXBuildFile; fileRef = 18B05E5D1A9A47F200A97597 /* ResourcePath.mm */; };
+		18B05E731A9A487300A97597 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18B05E721A9A487300A97597 /* main.cpp */; };
+		18B05E791A9A697C00A97597 /* Data.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18B05E771A9A697C00A97597 /* Data.cpp */; };
+		18B05E7F1A9A89CF00A97597 /* SelectionSorting.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18B05E7D1A9A89CF00A97597 /* SelectionSorting.cpp */; };
+		18B05E811A9A940400A97597 /* Algorithm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18B05E801A9A940400A97597 /* Algorithm.cpp */; };
+		18B05E841A9AEE9F00A97597 /* BubbleSorting.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18B05E821A9AEE9F00A97597 /* BubbleSorting.cpp */; };
+		18B05E871A9AF83300A97597 /* InsertionSorting.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18B05E851A9AF83300A97597 /* InsertionSorting.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18B05E581A9A47F200A97597 /* SortingAlgorithms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SortingAlgorithms.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18B05E5C1A9A47F200A97597 /* SortingAlgorithms-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SortingAlgorithms-Info.plist"; sourceTree = "<group>"; };
+		18B05E5D1A9A47F200A97597 /* ResourcePath.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ResourcePath.mm; sourceTree = "<group>"; };
+		18B05E5F1A9A47F200A97597 /* ResourcePath.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ResourcePath.hpp; sourceTree = "<group>"; };
+		18B05E711A9A484E00A97597 /* Arial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Arial.ttf; sourceTree = "<group>"; };
+		18B05E721A9A487300A97597 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		18B05E751A9A57C000A97597 /* Algorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Algorithm.h; sourceTree = "<group>"; };
+		18B05E771A9A697C00A97597 /* Data.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Data.cpp; sourceTree = "<group>"; };
+		18B05E781A9A697C00A97597 /* Data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Data.h; sourceTree = "<group>"; };
+		18B05E7D1A9A89CF00A97597 /* SelectionSorting.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SelectionSorting.cpp; sourceTree = "<group>"; };
+		18B05E7E1A9A89CF00A97597 /* SelectionSorting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectionSorting.h; sourceTree = "<group>"; };
+		18B05E801A9A940400A97597 /* Algorithm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Algorithm.cpp; sourceTree = "<group>"; };
+		18B05E821A9AEE9F00A97597 /* BubbleSorting.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BubbleSorting.cpp; sourceTree = "<group>"; };
+		18B05E831A9AEE9F00A97597 /* BubbleSorting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BubbleSorting.h; sourceTree = "<group>"; };
+		18B05E851A9AF83300A97597 /* InsertionSorting.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InsertionSorting.cpp; sourceTree = "<group>"; };
+		18B05E861A9AF83300A97597 /* InsertionSorting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InsertionSorting.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18B05E541A9A47F200A97597 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18B05E4E1A9A47F200A97597 = {
+			isa = PBXGroup;
+			children = (
+				18B05E5A1A9A47F200A97597 /* SortingAlgorithms */,
+				18B05E591A9A47F200A97597 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18B05E591A9A47F200A97597 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18B05E581A9A47F200A97597 /* SortingAlgorithms.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18B05E5A1A9A47F200A97597 /* SortingAlgorithms */ = {
+			isa = PBXGroup;
+			children = (
+				18B05E701A9A47FF00A97597 /* src */,
+				18B05E621A9A47F300A97597 /* res */,
+				18B05E5B1A9A47F200A97597 /* Supporting Files */,
+			);
+			path = SortingAlgorithms;
+			sourceTree = "<group>";
+		};
+		18B05E5B1A9A47F200A97597 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18B05E5C1A9A47F200A97597 /* SortingAlgorithms-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18B05E621A9A47F300A97597 /* res */ = {
+			isa = PBXGroup;
+			children = (
+				18B05E711A9A484E00A97597 /* Arial.ttf */,
+			);
+			name = res;
+			sourceTree = "<group>";
+		};
+		18B05E701A9A47FF00A97597 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				18B05E5D1A9A47F200A97597 /* ResourcePath.mm */,
+				18B05E5F1A9A47F200A97597 /* ResourcePath.hpp */,
+				18B05E721A9A487300A97597 /* main.cpp */,
+				18B05E751A9A57C000A97597 /* Algorithm.h */,
+				18B05E801A9A940400A97597 /* Algorithm.cpp */,
+				18B05E771A9A697C00A97597 /* Data.cpp */,
+				18B05E781A9A697C00A97597 /* Data.h */,
+				18B05E7D1A9A89CF00A97597 /* SelectionSorting.cpp */,
+				18B05E7E1A9A89CF00A97597 /* SelectionSorting.h */,
+				18B05E821A9AEE9F00A97597 /* BubbleSorting.cpp */,
+				18B05E831A9AEE9F00A97597 /* BubbleSorting.h */,
+				18B05E851A9AF83300A97597 /* InsertionSorting.cpp */,
+				18B05E861A9AF83300A97597 /* InsertionSorting.h */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18B05E571A9A47F200A97597 /* SortingAlgorithms */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18B05E6D1A9A47F300A97597 /* Build configuration list for PBXNativeTarget "SortingAlgorithms" */;
+			buildPhases = (
+				18B05E531A9A47F200A97597 /* Sources */,
+				18B05E541A9A47F200A97597 /* Frameworks */,
+				18B05E551A9A47F200A97597 /* Resources */,
+				18B05E561A9A47F200A97597 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SortingAlgorithms;
+			productName = SortingAlgorithms;
+			productReference = 18B05E581A9A47F200A97597 /* SortingAlgorithms.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18B05E4F1A9A47F200A97597 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = none;
+				TargetAttributes = {
+					18B05E571A9A47F200A97597 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 18B05E521A9A47F200A97597 /* Build configuration list for PBXProject "SortingAlgorithms" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 18B05E4E1A9A47F200A97597;
+			productRefGroup = 18B05E591A9A47F200A97597 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18B05E571A9A47F200A97597 /* SortingAlgorithms */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18B05E551A9A47F200A97597 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18B05E561A9A47F200A97597 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This shell script simply copies required SFML dylibs/frameworks into the application bundle frameworks folder.\n# If you're using static libraries (which is not recommended) you should remove this script from your project.\n\n# Are we building a project that uses frameworks or dylibs?\ncase \"$SFML_BINARY_TYPE\" in\n    DYLIBS)\n        frameworks=\"false\"\n        ;;\n    *)\n        frameworks=\"true\"\n        ;;\nesac\n\n# Echoes to stderr\nerror () # $* message to display\n{\n    echo $* 1>&2\n    exit 2\n}\n\nassert () # $1 is a boolean, $2...N is an error message\n{\n    if [ $# -lt 2 ]\n    then\n        error \"Internal error in assert : not enough args\"\n    fi\n\n    if [ $1 -ne 0 ]\n    then\n        shift\n        error \"$*\"\n    fi\n}\n\nforce_remove () # $@ is some paths\n{\n    test $# -ge 1\n    assert $? \"force_remove() requires at least one parameter\"\n    rm -fr $@\n    assert $? \"couldn't remove $@\"\n}\n\ncopy () # $1 is a source, $2 is a destination\n{\n    test $# -eq 2\n    assert $? \"copy() requires two parameters\"\n    ditto \"$1\" \"$2\"\n    assert $? \"couldn't copy $1 to $2\"\n}\n\nrequire () # $1 is a SFML module like 'system' or 'audio'\n{\n    dest=\"$BUILT_PRODUCTS_DIR/$PRODUCT_NAME.app/Contents/Frameworks\"\n\n    if [ -z \"$1\" ]\n    then\n        error \"require() requires one parameter!\"\n    else\n        # clean potentially old stuff\n        force_remove \"$dest/libsfml-$1\"*\n        force_remove \"$dest/sfml-$1.framework\"\n\n        # copy SFML libraries\n        if [ \"$frameworks\" = \"true\" ]\n        then\n            source=\"/Library/Frameworks/sfml-$1.framework\"\n            target=\"sfml-$1.framework\"\n        elif [ \"$SFML_LINK_DYLIBS_SUFFIX\" = \"-d\" ]\n        then\n            source=\"/usr/local/lib/libsfml-$1-d.dylib\"\n            target=\"`readlink $source`\"\n        else\n            source=\"/usr/local/lib/libsfml-$1.dylib\"\n            target=\"`readlink $source`\"\n        fi\n\n        copy \"$source\" \"$dest/$target\"\n\n        # copy extra dependencies\n        if [ \"$1\" = \"audio\" ]\n        then\n            # copy sndfile framework too\n            copy \"/Library/Frameworks/sndfile.framework\" \"$dest/sndfile.framework\"\n        elif [ \"$1\" = \"graphics\" ]\n        then\n            # copy freetype framework too\n            copy \"/Library/Frameworks/freetype.framework\" \"$dest/freetype.framework\"\n        fi\n    fi\n}\n\nif [ -n \"$SFML_SYSTEM\" ]\nthen\n    require \"system\"\nfi\n\nif [ -n \"$SFML_AUDIO\" ]\nthen\n    require \"audio\"\nfi\n\nif [ -n \"$SFML_NETWORK\" ]\nthen\n    require \"network\"\nfi\n\nif [ -n \"$SFML_WINDOW\" ]\nthen\n    require \"window\"\nfi\n\nif [ -n \"$SFML_GRAPHICS\" ]\nthen\n    require \"graphics\"\nfi\n\n                ";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18B05E531A9A47F200A97597 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B05E811A9A940400A97597 /* Algorithm.cpp in Sources */,
+				18B05E731A9A487300A97597 /* main.cpp in Sources */,
+				18B05E841A9AEE9F00A97597 /* BubbleSorting.cpp in Sources */,
+				18B05E7F1A9A89CF00A97597 /* SelectionSorting.cpp in Sources */,
+				18B05E5E1A9A47F200A97597 /* ResourcePath.mm in Sources */,
+				18B05E791A9A697C00A97597 /* Data.cpp in Sources */,
+				18B05E871A9AF83300A97597 /* InsertionSorting.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		18B05E6B1A9A47F300A97597 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					i386,
+					x86_64,
+				);
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "$(SFML_LINK_PREFIX) sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "$(SFML_LINK_PREFIX) sfml-network$(SFML_LINK_SUFFIX)";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Debug;
+		};
+		18B05E6C1A9A47F300A97597 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					i386,
+					x86_64,
+				);
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "$(SFML_LINK_PREFIX) sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "$(SFML_LINK_PREFIX) sfml-network$(SFML_LINK_SUFFIX)";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Release;
+		};
+		18B05E6E1A9A47F300A97597 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "SortingAlgorithms/SortingAlgorithms-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18B05E6F1A9A47F300A97597 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "SortingAlgorithms/SortingAlgorithms-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18B05E521A9A47F200A97597 /* Build configuration list for PBXProject "SortingAlgorithms" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18B05E6B1A9A47F300A97597 /* Debug */,
+				18B05E6C1A9A47F300A97597 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18B05E6D1A9A47F300A97597 /* Build configuration list for PBXNativeTarget "SortingAlgorithms" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18B05E6E1A9A47F300A97597 /* Debug */,
+				18B05E6F1A9A47F300A97597 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18B05E4F1A9A47F200A97597 /* Project object */;
+}
